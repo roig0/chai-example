@@ -1,21 +1,21 @@
 class Cube {
     constructor(length) {
-    this.length = length;
+        this.length = length;
     }
     
     getSideLength () {
-    return this.length;
+        return this.length;
     }
     
     getSurfaceArea () {
-    return (this.length * this.length) * 6;
+        return (this.length * this.length) * 6;
     }
     
     getVolume () {
-    return Math.pow(this.length,3);
+        return Math.pow(this.length,3);
     }
-    }
-    
-    module.exports = {
+}
+
+module.exports = {
     Cube:Cube
-    }
+}
